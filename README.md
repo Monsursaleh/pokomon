@@ -2,7 +2,7 @@
 
 ## Pokomon Api used
 
--link here ('https://pokeapi.co/')
+-Api link [here](https://public.bc.fi/s2300110/speed_game/)
 
 ## limitation
 
