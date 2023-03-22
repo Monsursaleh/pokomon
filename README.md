@@ -6,7 +6,7 @@
 
 ## Project outlook
 
-- ![Image Grid](/pokodex.png "Optional title")
+- ![Image POKODEX](/pokodex.png "Optional title")
 
 ## limitation
 
