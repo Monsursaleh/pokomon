@@ -1,44 +1,54 @@
-body {
-  background-color: red;
-  color: white;
+:root {
+  --background-color: pink;
+  --bodyTextcolor: white;
+}
+* {
+  padding: 0;
   margin: 0;
+}
+
+body {
+  background: var(--background-color);
+  margin: 0;
+  color: var(--bodyTextcolor);
   font-family: rubik;
 }
 
 .container {
-  padding: 40px;
-  margin: 0 auto;
+  padding: 100px;
+  margin: 10dvh auto;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
   font-size: 54px;
+  margin-bottom: 10vh;
 }
 
 #pokedex {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
-  padding-inline-start: 0;
+  padding-inline-start: 10px;
 }
 
 .card {
   list-style: none;
   padding: 40px;
-  background-color: black;
+  background-color: rgb(239, 2, 73);
   color: white;
   text-align: center;
-  border-radius: 50%;
-  border: 10px solid white;
+  border-radius: 5%;
+  border: 10px dotted white;
 }
 
 .card:hover {
-  animation: bounce 0.5s linear;
+  animation: bounce 0.2s linear;
 }
 
 .card-title {
-  text-transform: capitalize;
+  letter-spacing: 3px;
   margin-bottom: 0px;
   font-size: 32px;
   font-weight: normal;
@@ -50,7 +60,7 @@ h1 {
 }
 
 .card-image {
-  height: 280px;
+  height: 100px;
 }
 
 @keyframes bounce {

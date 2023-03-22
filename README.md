@@ -4,9 +4,15 @@
 
 -Api link [here](https://public.bc.fi/s2300110/speed_game/)
 
-## Project workflow chart
+## Project outlook
+
+- ![Image Grid](/pokodex.png "Optional title")
 
 ## limitation
+
+-UI/UX
+
+- Layout
 
 ## Oucomes
 
