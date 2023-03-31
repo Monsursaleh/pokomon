@@ -21,6 +21,6 @@ Live Proejct Link :
 - Understanding promise, callback , async
 - map and forEach method used for Dom manupulation
 
-## Authors
+## Author
 
 - [Monsur Saleh](https://www.github.com/monsursaleh)
