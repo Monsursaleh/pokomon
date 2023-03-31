@@ -12,9 +12,32 @@
     />
   </head>
   <body>
-    <div class="container pokodex">
-      <h1>Quick's Pokedex</h1>
-      <ul id="pokedex"></ul>
+    <div class="container">
+      <h1>Pokedex Api</h1>
+
+      <div class="btn-generation">
+        <button class="genButton" value="0">Gen 1</button>
+        <button class="genButton" value="1">Gen 2</button>
+        <button class="genButton" value="2">Gen 3</button>
+        <button class="genButton" value="3">Gen 4</button>
+        <button class="genButton" value="4">Gen 5</button>
+        <button class="genButton" value="5">Gen 6</button>
+        <button class="genButton" value="6">Gen 7</button>
+        <button class="genButton" value="7">Gen 8</button>
+        <button class="genButton" value="8">Gen 9</button>
+        <button class="genButton" value="9">Gen All</button>
+      </div>
+
+      <div class="type">
+        <form class="type_form"></form>
+      </div>
+      <div class="search_name">
+        <label for="search_id">Search By Name </label>
+        <input type="text" id="search_id" />
+      </div>
+      <div class="container-pokedex">
+        <ul id="pokedex"></ul>
+      </div>
     </div>
     <script src="main.js"></script>
   </body>

@@ -1,21 +1,26 @@
-## This is Pokomon App version 1 Work in progesss
+## POKEDEX API APPS
 
-## Pokomon Api used
+This is pokedex app using Pokemon Api , Here you can see Pokdex card by genaration, Name and Type .
 
--Api link [here](https://public.bc.fi/s2300110/speed_game/)
+![Image POKODEX](/pokodex.png 'Optional title')
 
-## Project outlook
+## Tech Stack
 
-- ![Image POKODEX](/pokodex.png "Optional title")
+**HTML**
+**CSS:**
+**Javascript**
 
-## limitation
+-Api Documentation link: [here](https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0)
 
--UI/UX
+Live Proejct Link :
+[Here](https://public.bc.fi/s2300110/pokedex/)
 
-- Layout
-
-## Oucomes
+## Leanring Oucomes
 
 - Understading Fetch Api
 - Understanding promise, callback , async
 - map and forEach method used for Dom manupulation
+
+## Authors
+
+- [@monsursaleh](https://www.github.com/monsursaleh)
