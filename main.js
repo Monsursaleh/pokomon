@@ -2,7 +2,7 @@
 let pokeArrbyGen = []
 let pokemonsType = []
 
-//genreation array for fetching data by limit and fetching data
+//genreation array for fetching data by limit and fetching
 //https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0
 
 const generations = [

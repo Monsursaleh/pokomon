@@ -23,4 +23,4 @@ Live Proejct Link :
 
 ## Author
 
-- [Monsur Saleh](https://www.github.com/monsursaleh)
+[Monsur Saleh](https://www.github.com/monsursaleh)
