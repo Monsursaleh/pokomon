@@ -42,19 +42,6 @@ const typeArr = [
 
 // adding type checkboxes
 const searchType = document.querySelector('.type_form')
-// function createType(arr) {
-//   arr.map((element) => {
-//     const html = `
-//   <div>
-//   <input class="type_input" type="checkbox" id="${element}" />
-//   <label for="${element}"><img src="img/${element}.png" alt="${element}" /></label>
-// </div>
-//   `
-//     console.log('moiiii')
-//     searchType.insertAdjacentHTML('afterbegin', html)
-//   })
-//   console.log('moe')
-// }
 
 let createType = (arr) => {
   let htmlChekbox = arr.map(
@@ -159,9 +146,7 @@ const searchNameId = document.querySelector('#search_id')
 
 // event listener key up handler
 searchNameId.addEventListener('keyup', () => {
-  console.log('---')
   const searched_Name = searchNameId.value
-  const sort_Arr = sortbyName(pokeArrbyGen, searched_Name)
   const filtering_Arr = pokeArrbyGen.filter((pokemon) => {
     return pokemon.name.toLowerCase().includes(searched_Name.toLowerCase())
   })
